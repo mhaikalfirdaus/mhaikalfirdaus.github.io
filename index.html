@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
   <title>Muhammad Haikal Firdaus | Data Analyst, Web Developer, IT Support</title>
   <meta content="Portofolio Muhammad Haikal Firdaus, lulusan Ilmu Komputer (Cum Laude) yang mencari posisi junior di analisis data, web development, dan IT support." name="description">
   <meta content="data analyst, web developer, IT support, Laravel, LSTM, GIS, ilmu komputer, Bogor" name="keywords">
@@ -11,6 +13,20 @@
 <meta property="og:title" content="Muhammad Haikal Firdaus | Data Analyst, Web Developer, IT Support">
 <meta property="og:description" content="Lulusan Ilmu Komputer (Cum Laude): analisis data, web development, dan IT support.">
 <meta name="theme-color" content="#040b14">
+<link rel="canonical" href="https://mhaikalfirdaus.github.io/">
+<meta name="author" content="Muhammad Haikal Firdaus">
+<meta name="robots" content="index, follow">
+<meta property="og:url" content="https://mhaikalfirdaus.github.io/">
+<meta property="og:site_name" content="Portofolio Muhammad Haikal Firdaus">
+<meta property="og:locale" content="id_ID">
+<meta property="og:image" content="https://mhaikalfirdaus.github.io/assets/img/og-image.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Muhammad Haikal Firdaus, Data Analyst, Web Developer, IT Support">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhammad Haikal Firdaus | Data Analyst, Web Developer, IT Support">
+<meta name="twitter:image" content="https://mhaikalfirdaus.github.io/assets/img/og-image.jpg">
+<link rel="preload" as="image" href="assets/img/hero-1600.webp" imagesrcset="assets/img/hero-800.webp 800w, assets/img/hero-1600.webp 1600w" imagesizes="100vw" fetchpriority="high">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Muhammad Haikal Firdaus", "url": "https://mhaikalfirdaus.github.io/", "image": "https://mhaikalfirdaus.github.io/assets/img/og-image.jpg", "jobTitle": "Junior Data Analyst, Web Developer, IT Support", "email": "mailto:mhaikalfirdaus011@gmail.com", "address": {"@type": "PostalAddress", "addressLocality": "Bogor", "addressRegion": "Jawa Barat", "addressCountry": "ID"}, "alumniOf": {"@type": "CollegeOrUniversity", "name": "Universitas Pakuan"}, "knowsAbout": ["Analisis data", "Web development", "Laravel", "Machine learning", "Sistem Informasi Geografis", "IT support"], "sameAs": ["https://github.com/mhaikalfirdaus", "https://www.linkedin.com/in/muhammad-haikal-firdaus/"]}</script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -19,17 +35,16 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Raleway:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css?v=20261029b" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: iPortfolio
@@ -38,46 +53,21 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-<style>
-#hero{background:linear-gradient(135deg,#040b14 0%,#0b2a40 100%)}
-#hero img{object-position:center 40%}
-#hero:before{background:linear-gradient(90deg,rgba(4,11,20,.9) 0%,rgba(4,11,20,.6) 55%,rgba(4,11,20,.25) 100%)}
-#hero h2{font-size:clamp(2rem,6vw,4rem)}
-.about .col-lg-4 img{width:100%;aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:8px}
-.cert-card .cert-img{width:100%;aspect-ratio:4/3;object-fit:contain;background:#fafafa;border:1px solid #e3e8ee;border-radius:6px;margin-bottom:16px;transition:transform .2s}
-.cert-card a:hover .cert-img{transform:scale(1.02)}
-.hero-cta{margin-top:24px;display:flex;gap:12px;flex-wrap:wrap}
-.hero-ghost{display:inline-block;padding:10px 28px;border-radius:50px;border:2px solid #fff;color:#fff;font-weight:500;margin-top:8px}
-.hero-ghost:hover{background:#fff;color:#040b14}
-.proj-card .cs{margin-bottom:8px}.proj-card .cs strong{color:var(--heading-color)}
 
-.filters{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px;justify-content:center}
-.chip{font-family:var(--nav-font);font-weight:500;font-size:15px;padding:8px 20px;border-radius:50px;border:1px solid color-mix(in srgb,var(--default-color),transparent 75%);background:var(--surface-color);color:var(--default-color);cursor:pointer;transition:all .2s}
-.chip:hover{border-color:var(--accent-color);color:var(--accent-color)}
-.chip.on{background:var(--accent-color);border-color:var(--accent-color);color:var(--contrast-color)}
-.chip:focus-visible,.cv-btn:focus-visible,.hero-ghost:focus-visible{outline:3px solid var(--accent-color);outline-offset:3px}
-[data-cat][hidden]{display:none}
-.proj-card{transition:transform .25s,box-shadow .25s;height:100%}
-.proj-card:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(4,11,20,.12)}
-.cv-dl{margin:0 0 18px}
-.cv-btn{display:inline-block;padding:9px 22px;border-radius:50px;background:var(--accent-color);color:var(--contrast-color);font-weight:500}
-.cv-btn:hover{filter:brightness(1.1);color:var(--contrast-color)}
-@media (prefers-reduced-motion:reduce){.proj-card,.chip{transition:none}.proj-card:hover{transform:none}}
-@media (max-width:575px){#hero h2{font-size:2rem}.hero-cta{flex-direction:column;align-items:flex-start}.hero-ghost{margin-top:0}}
-</style>
 </head>
 
 <body class="index-page">
+<a class="skip-link" href="#main">Lewati ke konten utama</a>
 <header id="header" class="header dark-background d-flex flex-column">
-<i class="header-toggle d-xl-none bi bi-list"></i>
-<div class="profile-img"><img src="assets/img/profile-placeholder.jpg" alt="Foto profil Muhammad Haikal Firdaus" class="img-fluid rounded-circle"></div>
+<button type="button" class="header-toggle d-xl-none bi bi-list" aria-label="Buka menu navigasi" aria-controls="navmenu" aria-expanded="false"></button>
+<div class="profile-img"><img src="assets/img/profile-240.webp" width="240" height="360" alt="Foto profil Muhammad Haikal Firdaus" class="img-fluid rounded-circle" decoding="async"></div>
 <a href="index.html" class="logo d-flex align-items-center justify-content-center"><h1 class="sitename">Haikal Firdaus</h1></a>
 <div class="social-links text-center">
-<a href="https://github.com/mhaikalfirdaus" aria-label="GitHub"><i class="bi bi-github"></i></a>
-<a href="https://www.linkedin.com/in/muhammad-haikal-firdaus/" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+<a href="https://github.com/mhaikalfirdaus" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+<a href="https://www.linkedin.com/in/muhammad-haikal-firdaus/" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
 <a href="mailto:mhaikalfirdaus011@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
 </div>
-<nav id="navmenu" class="navmenu"><ul>
+<nav id="navmenu" class="navmenu" aria-label="Navigasi utama"><ul>
 <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
 <li><a href="#about"><i class="bi bi-person navicon"></i>Tentang</a></li>
 <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a></li>
@@ -88,10 +78,10 @@
 <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Kontak</a></li>
 </ul></nav>
 </header>
-<main class="main">
+<main class="main" id="main" tabindex="-1">
 
 <section id="hero" class="hero section dark-background">
-<img src="assets/img/hero-bg.jpeg" alt="" data-aos="fade-in">
+<img src="assets/img/hero-1600.webp" srcset="assets/img/hero-800.webp 800w, assets/img/hero-1600.webp 1600w" sizes="100vw" width="1600" height="900" alt="" fetchpriority="high" decoding="async">
 <div class="container" data-aos="fade-up" data-aos-delay="100">
 <h2>Muhammad Haikal Firdaus</h2>
 <p>Saya seorang <span class="typed" data-typed-items="Lulusan Ilmu Komputer,Data Analyst Junior,Web Developer Junior,Calon IT Support">Lulusan Ilmu Komputer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
@@ -101,32 +91,24 @@
 </section>
 
 <section id="about" class="about section">
-<div class="container section-title" data-aos="fade-up"><h2>Tentang saya</h2><p>Lulusan S1 Ilmu Komputer Universitas Pakuan Bogor yang suka mengubah data menjadi informasi yang bisa dipakai mengambil keputusan.</p></div>
+<div class="container section-title" data-aos="fade-up"><h2>Tentang saya</h2><p>Profil singkat dan posisi yang saya cari.</p></div>
 <div class="container" data-aos="fade-up" data-aos-delay="100">
 <div class="row gy-4 justify-content-center">
-<div class="col-lg-4"><img src="assets/img/profile-placeholder.jpg" class="img-fluid" alt="Foto profil Muhammad Haikal Firdaus"></div>
+<div class="col-lg-4"><img src="assets/img/profile-480.webp" width="480" height="721" class="img-fluid" alt="Foto profil Muhammad Haikal Firdaus" loading="lazy" decoding="async"></div>
 <div class="col-lg-8 content">
-<h2>Data, Web, dan IT Support.</h2>
-<p class="fst-italic py-3">Fokus studi: analitik data, machine learning dan deep learning, serta pengembangan sistem informasi.</p>
-<div class="row">
-<div class="col-lg-6"><ul>
-<li><i class="bi bi-chevron-right"></i> <strong>Lokasi:</strong> <span>Gunung Putri, Bogor, Jawa Barat</span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Gelar:</strong> <span>S.Kom., Cum Laude (IPK 3,72/4,00)</span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>mhaikalfirdaus011@gmail.com</span></li>
-</ul></div>
-<div class="col-lg-6"><ul>
-<li><i class="bi bi-chevron-right"></i> <strong>Bahasa:</strong> <span>Indonesia (native), Inggris (dasar–menengah)</span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Status:</strong> <span>Terbuka untuk magang dan posisi junior (data analyst, web developer, IT support)</span></li>
-<li><i class="bi bi-chevron-right"></i> <strong>Minat:</strong> <span>Analisis data, web development, IT support</span></li>
-</ul></div>
-</div>
-<p class="py-3">Saya mengembangkan dan menyesuaikan sistem pelaporan pengaduan bencana berbasis web dengan Laravel saat magang di BPBD Kabupaten Bogor, menulis skripsi peramalan harga dengan LSTM, dan menjadi penulis pertama sebuah publikasi ilmiah. Saya juga mengerjakan WebGIS dari data sensor IoT, memahami dasar jaringan (sertifikasi IPv6) serta hosting dan domain. Saya pernah menjalankan usaha kecil dan memimpin organisasi pemuda, jadi nyaman bekerja mandiri maupun dalam tim.</p>
+<p class="about-bio">Lulusan baru S1 Ilmu Komputer Universitas Pakuan. Berpengalaman membangun sistem pelaporan pengaduan bencana berbasis web dengan Laravel saat magang di BPBD Kabupaten Bogor, serta menulis skripsi tentang prediksi harga daging ayam menggunakan LSTM. Penulis pertama sebuah publikasi ilmiah tentang simulasi dinamis. Mencari posisi sebagai web developer atau data analyst.</p>
+<dl class="facts-grid">
+<div><dt>Pendidikan</dt><dd>S1 Ilmu Komputer, Universitas Pakuan. Cum Laude, IPK 3,72</dd></div>
+<div><dt>Lokasi</dt><dd>Gunung Putri, Bogor, Jawa Barat</dd></div>
+<div><dt>Status</dt><dd>Terbuka untuk magang dan posisi junior</dd></div>
+<div><dt>Bahasa</dt><dd>Indonesia (fasih), Inggris dan Melayu (menengah)</dd></div>
+</dl>
 </div></div></div>
 </section>
 
 <section id="stats" class="stats section">
 <div class="container" data-aos="fade-up" data-aos-delay="100"><div class="row gy-4">
-<div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-mortarboard"></i><span>3,72</span><p><strong>IPK</strong> <span>dari 4,00, Cum Laude</span></p></div></div><div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-journal-richtext"></i><span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span><p><strong>Proyek</strong> <span>skripsi LSTM, WebGIS, dan sistem pengaduan web</span></p></div></div><div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-briefcase"></i><span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span><p><strong>Bulan magang web developer</strong> <span>BPBD Kabupaten Bogor</span></p></div></div><div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-patch-check"></i><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span><p><strong>Sertifikat</strong> <span>kursus, konferensi, dan sertifikasi</span></p></div></div>
+<div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-mortarboard"></i><span class="stat-static">3,72</span><p><strong>IPK</strong> <span>dari 4,00, Cum Laude</span></p></div></div><div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-journal-richtext"></i><span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span><p><strong>Proyek</strong> <span>skripsi LSTM, WebGIS, dan sistem pengaduan web</span></p></div></div><div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-briefcase"></i><span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span><p><strong>Bulan magang web developer</strong> <span>BPBD Kabupaten Bogor</span></p></div></div><div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-patch-check"></i><span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span><p><strong>Sertifikat</strong> <span>kursus, konferensi, dan sertifikasi</span></p></div></div>
 </div></div>
 </section>
 
@@ -139,11 +121,11 @@
 <p><em>Lulusan Ilmu Komputer (Cum Laude, IPK 3,72/4,00) dengan pengalaman mengembangkan web dengan Laravel saat magang di BPBD Kabupaten Bogor, penulis skripsi peramalan LSTM, dan penulis pertama publikasi ilmiah. Mencari posisi junior sebagai data analyst, web developer, atau IT support. Teliti, cepat belajar, dan nyaman bekerja mandiri maupun dalam tim.</em></p>
 <ul><li>Gunung Putri, Bogor, Jawa Barat</li><li>mhaikalfirdaus011@gmail.com</li></ul></div>
 <h3 class="resume-title">Pendidikan</h3>
-<div class="resume-item"><h4>S1 Ilmu Komputer (S.Kom.)</h4><h5>2022 – 2026</h5><p><em>Universitas Pakuan Bogor, Fakultas MIPA</em></p><ul><li>IPK 3,72/4,00, lulus Cum Laude</li><li><a href="assets/img/pernyataan-yudisium.jpg" class="glightbox" data-gallery="yudisium" title="Pernyataan yudisium, Universitas Pakuan"><i class="bi bi-zoom-in"></i> Lihat pernyataan yudisium</a></li><li>Fokus: analitik data, machine learning dan deep learning, pengembangan sistem informasi</li></ul></div>
+<div class="resume-item"><h4>S1 Ilmu Komputer (S.Kom.)</h4><h5>2022 – 2026</h5><p><em>Universitas Pakuan Bogor, Fakultas MIPA</em></p><ul><li>IPK 3,72/4,00, lulus Cum Laude</li><li><a href="assets/img/pernyataan-yudisium-1200.webp" class="glightbox" data-gallery="yudisium" title="Pernyataan yudisium, Universitas Pakuan"><i class="bi bi-zoom-in"></i> Lihat pernyataan yudisium</a></li><li>Fokus: analitik data, machine learning dan deep learning, pengembangan sistem informasi</li></ul></div>
 </div>
 <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
 <h3 class="resume-title">Pengalaman</h3><p class="cv-dl"><a class="cv-btn" href="assets/CV_Muhammad_Haikal_Firdaus.pdf" download><i class="bi bi-file-earmark-pdf"></i> Unduh CV lengkap (PDF)</a></p>
-<div class="resume-item"><h4>Web Developer Intern (Praktik Lapangan)</h4><h5>Agu – Nov 2025</h5><p><em>BPBD Kabupaten Bogor</em></p><ul><li>Mengembangkan dan menyesuaikan sistem pelaporan pengaduan bencana berbasis web dengan Laravel (basis open source) agar masyarakat lebih mudah melapor.</li><li><a href="https://github.com/mhaikalfirdaus/pengaduan-bpbd"><i class="bi bi-github"></i> Kode di GitHub</a></li></ul></div><div class="resume-item"><h4>Mitra Driver (ShopeeFood)</h4><h5>Mar 2025 – sekarang</h5><p><em>ShopeeFood, Kab. Bogor</em></p><ul><li>Mengantar pesanan makanan kepada pelanggan melalui platform ShopeeFood dengan menjaga ketepatan waktu dan kualitas pelayanan.</li></ul></div>
+<div class="resume-item"><h4>Web Developer Intern (Praktik Lapangan)</h4><h5>Agu – Nov 2025</h5><p><em>BPBD Kabupaten Bogor</em></p><ul><li>Mengembangkan dan menyesuaikan sistem pelaporan pengaduan bencana berbasis web dengan Laravel (basis open source) agar masyarakat lebih mudah melapor.</li><li><a href="https://github.com/mhaikalfirdaus/pengaduan-bpbd" rel="noopener"><i class="bi bi-github"></i> Kode di GitHub</a></li></ul></div><div class="resume-item"><h4>Mitra Driver (ShopeeFood)</h4><h5>Mar 2025 – sekarang</h5><p><em>ShopeeFood, Kab. Bogor</em></p><ul><li>Mengantar pesanan makanan kepada pelanggan melalui platform ShopeeFood dengan menjaga ketepatan waktu dan kualitas pelayanan.</li></ul></div>
 <div class="resume-item"><h4>Pemilik dan Pengelola Usaha</h4><h5>Jun – Des 2024</h5><p><em>Seafood Sosis Tusuk Bakar (Seatukar), Kab. Bogor</em></p><ul><li>Merintis dan menjalankan usaha makanan: perencanaan modal, pembelian bahan, dan operasional harian.</li><li>Mencatat pemasukan, pengeluaran, dan estimasi laba sambil kuliah penuh waktu.</li></ul></div><div class="resume-item"><h4>Operator Produksi (Kontrak)</h4><h5>2023 (3 bulan)</h5><p><em>PT Sanpak Unggul</em></p><ul><li>Memenuhi target jumlah dan kualitas harian bersama tim produksi.</li></ul></div>
 <h3 class="resume-title">Kepemimpinan</h3>
 <div class="resume-item"><h4>Ketua Karang Taruna Permai RW 011</h4><h5>2025 – sekarang</h5><p><em>Gunung Putri, Bogor</em></p><ul><li>Memimpin dan mengoordinasi program pemuda serta mengelola administrasi dan komunikasi dengan anggota, RW, dan aparat desa.</li></ul></div><div class="resume-item"><h4>Anggota KPPS</h4><h5>Pemilu 2024</h5><p><em>Kelompok Penyelenggara Pemungutan Suara</em></p><ul><li>Bertugas pada penyelenggaraan pemungutan dan penghitungan suara di tingkat TPS.</li></ul></div>
@@ -153,7 +135,7 @@
 <section id="proyek" class="portfolio section light-background">
 <div class="container section-title" data-aos="fade-up"><h2>Proyek</h2><p>Tiga proyek, masing-masing dengan masalah, pendekatan, dan hasilnya. Gunakan filter untuk melihat sesuai bidang.</p></div>
 <div class="container"><div class="filters" role="group" aria-label="Filter proyek"><button type="button" class="chip on" data-f="all">Semua</button><button type="button" class="chip" data-f="data">Analisis data</button><button type="button" class="chip" data-f="web">Web development</button></div><div class="row gy-4">
-<div class="col-lg-6" data-cat="data" data-aos="fade-up" data-aos-delay="100"><div class="proj-card"><h4>Prediksi harga daging ayam dengan LSTM</h4><div class="period">Skripsi, 2025 – 2026</div><p class="cs"><strong>Masalah.</strong> Harga komoditas naik turun dan sulit diperkirakan.</p><p class="cs"><strong>Pendekatan.</strong> Mengumpulkan data harga harian Kota Bogor, membersihkannya, lalu membangun model LSTM multivariat beserta dashboard Streamlit.</p><p class="cs"><strong>Hasil.</strong> MAPE 0,45% pada data uji, dibandingkan baseline harga kemarin sebesar 0,41%.</p><div><span class="tag">Python</span><span class="tag">LSTM</span><span class="tag">Time series</span><span class="tag">Streamlit</span></div><a href="https://github.com/mhaikalfirdaus/skripsi-lstm-harga-ayam"><i class="bi bi-github"></i> Kode di GitHub</a></div></div><div class="col-lg-6" data-cat="data web" data-aos="fade-up" data-aos-delay="200"><div class="proj-card"><h4>WebGIS monitoring suhu dan kelembaban Kota Bandung</h4><div class="period">Proyek kelompok, mata kuliah Sistem Informasi Geografis</div><p class="cs"><strong>Masalah.</strong> Memantau suhu dan kelembaban udara Kota Bandung secara hampir real-time di sembilan titik.</p><p class="cs"><strong>Pendekatan.</strong> Sensor IoT (ESP32, DHT22, GPS) mengirim data ke ThingSpeak, lalu ditampilkan di peta interaktif Leaflet dengan layer hasil analisis QGIS. Peran saya: analisis QGIS dan pembuatan WebGIS.</p><p class="cs"><strong>Hasil.</strong> Peta interaktif dengan sembilan titik pemantauan, layer batas desa dan jaringan jalan, serta nama lokasi otomatis dari koordinat GPS.</p><div><span class="tag">QGIS</span><span class="tag">Leaflet</span><span class="tag">JavaScript</span><span class="tag">IoT</span><span class="tag">ThingSpeak</span></div><a href="https://github.com/mhaikalfirdaus/webgis-monitoring-suhu-bandung"><i class="bi bi-github"></i> Kode di GitHub</a></div></div><div class="col-lg-6" data-cat="web" data-aos="fade-up" data-aos-delay="100"><div class="proj-card"><h4>Sistem pelaporan pengaduan bencana</h4><div class="period">BPBD Kabupaten Bogor, 2025</div><p class="cs"><strong>Masalah.</strong> Warga sulit menyampaikan laporan kejadian bencana.</p><p class="cs"><strong>Pendekatan.</strong> Menyesuaikan aplikasi web pengaduan open source (Laravel, lisensi MIT) menjadi sistem pelaporan bencana dengan peran masyarakat dan petugas, tanggapan, dan laporan.</p><p class="cs"><strong>Hasil.</strong> Masyarakat dapat mengirim laporan secara digital kepada petugas.</p><div><span class="tag">Laravel</span><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span></div><a href="https://github.com/mhaikalfirdaus/pengaduan-bpbd"><i class="bi bi-github"></i> Kode di GitHub</a></div></div>
+<div class="col-lg-6" data-cat="data" data-aos="fade-up" data-aos-delay="100"><div class="proj-card"><h4>Prediksi harga daging ayam dengan LSTM</h4><div class="period">Skripsi, 2025 – 2026</div><p class="cs"><strong>Masalah.</strong> Harga komoditas naik turun dan sulit diperkirakan.</p><p class="cs"><strong>Pendekatan.</strong> Mengumpulkan data harga harian Kota Bogor, membersihkannya, lalu membangun model LSTM multivariat beserta dashboard Streamlit.</p><p class="cs"><strong>Hasil.</strong> MAPE 0,45% pada data uji, dibandingkan baseline harga kemarin sebesar 0,41%.</p><div><span class="tag">Python</span><span class="tag">LSTM</span><span class="tag">Time series</span><span class="tag">Streamlit</span></div><a href="https://github.com/mhaikalfirdaus/skripsi-lstm-harga-ayam" rel="noopener"><i class="bi bi-github"></i> Kode di GitHub</a></div></div><div class="col-lg-6" data-cat="data web" data-aos="fade-up" data-aos-delay="200"><div class="proj-card"><h4>WebGIS monitoring suhu dan kelembaban Kota Bandung</h4><div class="period">Proyek kelompok, mata kuliah Sistem Informasi Geografis</div><p class="cs"><strong>Masalah.</strong> Memantau suhu dan kelembaban udara Kota Bandung secara hampir real-time di sembilan titik.</p><p class="cs"><strong>Pendekatan.</strong> Sensor IoT (ESP32, DHT22, GPS) mengirim data ke ThingSpeak, lalu ditampilkan di peta interaktif Leaflet dengan layer hasil analisis QGIS. Peran saya: analisis QGIS dan pembuatan WebGIS.</p><p class="cs"><strong>Hasil.</strong> Peta interaktif dengan sembilan titik pemantauan, layer batas desa dan jaringan jalan, serta nama lokasi otomatis dari koordinat GPS.</p><div><span class="tag">QGIS</span><span class="tag">Leaflet</span><span class="tag">JavaScript</span><span class="tag">IoT</span><span class="tag">ThingSpeak</span></div><a href="https://github.com/mhaikalfirdaus/webgis-monitoring-suhu-bandung" rel="noopener"><i class="bi bi-github"></i> Kode di GitHub</a></div></div><div class="col-lg-6" data-cat="web" data-aos="fade-up" data-aos-delay="100"><div class="proj-card"><h4>Sistem pelaporan pengaduan bencana</h4><div class="period">BPBD Kabupaten Bogor, 2025</div><p class="cs"><strong>Masalah.</strong> Warga sulit menyampaikan laporan kejadian bencana.</p><p class="cs"><strong>Pendekatan.</strong> Menyesuaikan aplikasi web pengaduan open source (Laravel, lisensi MIT) menjadi sistem pelaporan bencana dengan peran masyarakat dan petugas, tanggapan, dan laporan.</p><p class="cs"><strong>Hasil.</strong> Masyarakat dapat mengirim laporan secara digital kepada petugas.</p><div><span class="tag">Laravel</span><span class="tag">PHP</span><span class="tag">MySQL</span><span class="tag">Bootstrap</span></div><a href="https://github.com/mhaikalfirdaus/pengaduan-bpbd" rel="noopener"><i class="bi bi-github"></i> Kode di GitHub</a></div></div>
 </div></div>
 </section>
 
@@ -165,7 +147,7 @@
 <p class="cs"><strong>Penulis.</strong> Muhamad Haikal Firdaus (penulis pertama), Ahmad Sopyan Sauri, Syaifa Turrohman, Eneng Tita Tosida (penulis korespondensi), Kotim Subandi, dan Victor Ilyas Sugara.</p>
 <p class="cs"><strong>Isi.</strong> Model simulasi dinamis dengan pendekatan stock and flow dan causal loop diagram di iThink untuk memprediksi ketersediaan daging ayam di Kota Cilegon periode 2024–2034. Peran saya: mengembangkan model simulasi sebagai penulis pertama.</p>
 <div><span class="tag">System dynamics</span><span class="tag">iThink</span><span class="tag">Simulasi</span><span class="tag">Peramalan</span></div>
-<a href="https://www.researchgate.net/publication/391127582_Prediction_of_Chicken_Meat_Availability_in_Cilegon_City_Using_iThink_Dynamic_Simulation_Model"><i class="bi bi-journal-text"></i> Baca di ResearchGate</a>
+<a href="https://www.researchgate.net/publication/391127582_Prediction_of_Chicken_Meat_Availability_in_Cilegon_City_Using_iThink_Dynamic_Simulation_Model" rel="noopener"><i class="bi bi-journal-text"></i> Baca di ResearchGate</a>
 </div></div></div></div>
 </section>
 
@@ -183,8 +165,12 @@
 
 <section id="sertifikat" class="section">
 <div class="container section-title" data-aos="fade-up"><h2>Sertifikat</h2><p>Kursus data, konferensi kebencanaan, dan sertifikasi jaringan. Klik gambar untuk memperbesar.</p></div>
-<div class="container"><div class="row gy-4 justify-content-center">
-<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100"><div class="proj-card cert-card"><a href="assets/img/sertifikat-data-science-python.jpg" class="glightbox" title="Data Science Essentials with Python" data-gallery="sertifikat"><img src="assets/img/sertifikat-data-science-python.jpg" class="cert-img" alt="Sertifikat Data Science Essentials with Python atas nama Muhammad Haikal Firdaus" loading="lazy"></a><h4>Data Science Essentials with Python</h4><div class="period">Cisco Networking Academy, 21 Okt 2026</div><p>ID sertifikat: d4978e71-674b-4887-8a2d-7af36921120f</p><a href="assets/img/sertifikat-data-science-python.jpg" class="glightbox" data-gallery="sertifikat" title="Data Science Essentials with Python"><i class="bi bi-zoom-in"></i> Lihat sertifikat</a></div></div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200"><div class="proj-card cert-card"><a href="assets/img/sertifikat-intro-data-science.jpg" class="glightbox" title="Introduction to Data Science" data-gallery="sertifikat"><img src="assets/img/sertifikat-intro-data-science.jpg" class="cert-img" alt="Sertifikat Introduction to Data Science atas nama Muhammad Haikal Firdaus" loading="lazy"></a><h4>Introduction to Data Science</h4><div class="period">Cisco Networking Academy, 13 Okt 2026</div><p>Peran data dalam AI dan machine learning serta jalur karier di analitik data.</p><a href="assets/img/sertifikat-intro-data-science.jpg" class="glightbox" data-gallery="sertifikat" title="Introduction to Data Science"><i class="bi bi-zoom-in"></i> Lihat sertifikat</a></div></div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300"><div class="proj-card cert-card"><a href="assets/img/sertifikat-revou-intro-data-analytics.jpg" class="glightbox" title="Intro to Data Analytics" data-gallery="sertifikat"><img src="assets/img/sertifikat-revou-intro-data-analytics.jpg" class="cert-img" alt="Sertifikat Intro to Data Analytics RevoU atas nama Muhammad Haikal Firdaus" loading="lazy"></a><h4>Intro to Data Analytics</h4><div class="period">RevoU, 31 Jan 2025</div><p>Kursus daring 2 minggu. Nomor sertifikat: DAMC-20012025-01-1-01353</p><a href="assets/img/sertifikat-revou-intro-data-analytics.jpg" class="glightbox" data-gallery="sertifikat" title="Intro to Data Analytics"><i class="bi bi-zoom-in"></i> Lihat sertifikat</a></div></div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100"><div class="proj-card cert-card"><a href="assets/img/sertifikat-adexco-2025.jpg" class="glightbox" title="Peserta Konferensi ADEXCO 2025" data-gallery="sertifikat"><img src="assets/img/sertifikat-adexco-2025.jpg" class="cert-img" alt="Sertifikat peserta konferensi ADEXCO 2025 atas nama Muhammad Haikal Firdaus" loading="lazy"></a><h4>Peserta Konferensi ADEXCO 2025</h4><div class="period">BNPB dan MPBI, Jakarta, 12 Sep 2025</div><p>Strategi nasional untuk resiliensi masyarakat pesisir dan pulau kecil.</p><a href="assets/img/sertifikat-adexco-2025.jpg" class="glightbox" data-gallery="sertifikat" title="Peserta Konferensi ADEXCO 2025"><i class="bi bi-zoom-in"></i> Lihat sertifikat</a></div></div><div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200"><div class="proj-card cert-card"><a href="assets/img/sertifikat-ipv6-hurricane-electric.jpg" class="glightbox" title="IPv6 Certification, peringkat Newbie" data-gallery="sertifikat"><img src="assets/img/sertifikat-ipv6-hurricane-electric.jpg" class="cert-img" alt="Sertifikat IPv6 Hurricane Electric peringkat Newbie atas nama Muhammad Haikal Firdaus" loading="lazy"></a><h4>IPv6 Certification, peringkat Newbie</h4><div class="period">Hurricane Electric, Juni 2026</div><p>Sertifikasi dasar IPv6.</p><a href="assets/img/sertifikat-ipv6-hurricane-electric.jpg" class="glightbox" data-gallery="sertifikat" title="IPv6 Certification, peringkat Newbie"><i class="bi bi-zoom-in"></i> Lihat sertifikat</a></div></div>
+<div class="container"><div class="cert-grid">
+<article class="cert-item" data-aos="fade-up" data-aos-delay="0"><a href="assets/img/sertifikat-data-science-python-1200.webp" class="glightbox cert-thumb" title="Data Science Essentials with Python" data-gallery="sertifikat" aria-label="Perbesar sertifikat Data Science Essentials with Python"><img src="assets/img/sertifikat-data-science-python-240.webp" width="240" height="163" decoding="async" loading="lazy" alt="Sertifikat Data Science Essentials with Python atas nama Muhammad Haikal Firdaus"></a><div class="cert-text"><h3>Data Science Essentials with Python</h3><p class="cert-meta">Cisco Networking Academy</p><p class="cert-date">21 Okt 2026</p></div></article>
+<article class="cert-item" data-aos="fade-up" data-aos-delay="60"><a href="assets/img/sertifikat-intro-data-science-1200.webp" class="glightbox cert-thumb" title="Introduction to Data Science" data-gallery="sertifikat" aria-label="Perbesar sertifikat Introduction to Data Science"><img src="assets/img/sertifikat-intro-data-science-240.webp" width="240" height="186" decoding="async" loading="lazy" alt="Sertifikat Introduction to Data Science atas nama Muhammad Haikal Firdaus"></a><div class="cert-text"><h3>Introduction to Data Science</h3><p class="cert-meta">Cisco Networking Academy</p><p class="cert-date">13 Okt 2026</p></div></article>
+<article class="cert-item" data-aos="fade-up" data-aos-delay="120"><a href="assets/img/sertifikat-revou-intro-data-analytics-1200.webp" class="glightbox cert-thumb" title="Intro to Data Analytics" data-gallery="sertifikat" aria-label="Perbesar sertifikat Intro to Data Analytics"><img src="assets/img/sertifikat-revou-intro-data-analytics-240.webp" width="240" height="170" decoding="async" loading="lazy" alt="Sertifikat Intro to Data Analytics RevoU atas nama Muhammad Haikal Firdaus"></a><div class="cert-text"><h3>Intro to Data Analytics</h3><p class="cert-meta">RevoU</p><p class="cert-date">31 Jan 2025</p></div></article>
+<article class="cert-item" data-aos="fade-up" data-aos-delay="180"><a href="assets/img/sertifikat-adexco-2025-1200.webp" class="glightbox cert-thumb" title="Peserta Konferensi ADEXCO 2025" data-gallery="sertifikat" aria-label="Perbesar sertifikat Peserta Konferensi ADEXCO 2025"><img src="assets/img/sertifikat-adexco-2025-240.webp" width="240" height="170" decoding="async" loading="lazy" alt="Sertifikat peserta konferensi ADEXCO 2025 atas nama Muhammad Haikal Firdaus"></a><div class="cert-text"><h3>Peserta Konferensi ADEXCO 2025</h3><p class="cert-meta">BNPB dan MPBI, Jakarta</p><p class="cert-date">12 Sep 2025</p></div></article>
+<article class="cert-item" data-aos="fade-up" data-aos-delay="240"><a href="assets/img/sertifikat-ipv6-hurricane-electric-1200.webp" class="glightbox cert-thumb" title="IPv6 Certification, peringkat Newbie" data-gallery="sertifikat" aria-label="Perbesar sertifikat IPv6 Certification, peringkat Newbie"><img src="assets/img/sertifikat-ipv6-hurricane-electric-240.webp" width="240" height="170" decoding="async" loading="lazy" alt="Sertifikat IPv6 Hurricane Electric peringkat Newbie atas nama Muhammad Haikal Firdaus"></a><div class="cert-text"><h3>IPv6 Certification, peringkat Newbie</h3><p class="cert-meta">Hurricane Electric</p><p class="cert-date">Juni 2026</p></div></article>
 </div></div>
 </section>
 
@@ -194,8 +180,8 @@
 <div class="col-lg-5"><div class="info-wrap">
 <div class="info-item d-flex"><i class="bi bi-geo-alt flex-shrink-0"></i><div><h3>Lokasi</h3><p>Gunung Putri, Bogor, Jawa Barat</p></div></div>
 <div class="info-item d-flex"><i class="bi bi-envelope flex-shrink-0"></i><div><h3>Email</h3><p><a href="mailto:mhaikalfirdaus011@gmail.com">mhaikalfirdaus011@gmail.com</a></p></div></div>
-<div class="info-item d-flex"><i class="bi bi-linkedin flex-shrink-0"></i><div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/muhammad-haikal-firdaus/">linkedin.com/in/muhammad-haikal-firdaus</a></p></div></div>
-<div class="info-item d-flex"><i class="bi bi-github flex-shrink-0"></i><div><h3>GitHub</h3><p><a href="https://github.com/mhaikalfirdaus">github.com/mhaikalfirdaus</a></p></div></div>
+<div class="info-item d-flex"><i class="bi bi-linkedin flex-shrink-0"></i><div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/muhammad-haikal-firdaus/" rel="noopener">linkedin.com/in/muhammad-haikal-firdaus</a></p></div></div>
+<div class="info-item d-flex"><i class="bi bi-github flex-shrink-0"></i><div><h3>GitHub</h3><p><a href="https://github.com/mhaikalfirdaus" rel="noopener">github.com/mhaikalfirdaus</a></p></div></div>
 </div></div>
 <div class="col-lg-7"><form id="msgform" class="php-email-form"><div class="row gy-4">
 <div class="col-md-6"><input type="text" id="fn" class="form-control" placeholder="Nama Anda" aria-label="Nama Anda" required></div>
@@ -209,31 +195,17 @@
 
 <footer id="footer" class="footer position-relative light-background"><div class="container">
 <div class="copyright text-center"><p>© <span>Hak cipta</span> <strong class="px-1 sitename">Muhammad Haikal Firdaus</strong></p></div>
-<div class="credits">Template oleh <a href="https://bootstrapmade.com/">BootstrapMade</a> didistribusikan oleh <a href="https://themewagon.com">ThemeWagon</a></div>
+<div class="credits">Template oleh <a href="https://bootstrapmade.com/" rel="noopener">BootstrapMade</a> didistribusikan oleh <a href="https://themewagon.com" rel="noopener">ThemeWagon</a></div>
 </div></footer>
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-<div id="preloader"></div>
-<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/vendor/aos/aos.js"></script>
-<script src="assets/vendor/typed.js/typed.umd.js"></script>
-<script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-<script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-<script src="assets/js/main.js"></script>
-<script>
-document.getElementById('msgform').addEventListener('submit',function(e){
-e.preventDefault();
-var n=document.getElementById('fn').value.trim(),t=document.getElementById('fs').value.trim(),m=document.getElementById('fm').value.trim();
-window.location.href='mailto:mhaikalfirdaus011@gmail.com?subject='+encodeURIComponent(t)+'&body='+encodeURIComponent('Nama: '+n+'\n\n'+m);
-});
-</script>
-<script>
-(function(){var chips=document.querySelectorAll('.chip'),cards=document.querySelectorAll('#proyek [data-cat]');
-chips.forEach(function(c){c.addEventListener('click',function(){chips.forEach(function(x){x.classList.toggle('on',x===c)});var f=c.getAttribute('data-f');
-cards.forEach(function(el){el.hidden=!(f==='all'||el.getAttribute('data-cat').split(' ').indexOf(f)>-1)})})});})();
-</script>
+<a href="#hero" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center" aria-label="Kembali ke atas"><i class="bi bi-arrow-up-short"></i></a>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
+<script src="assets/vendor/aos/aos.js" defer></script>
+<script src="assets/vendor/typed.js/typed.umd.js" defer></script>
+<script src="assets/vendor/purecounter/purecounter_vanilla.js" defer></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+
+
 </body>
 </html>

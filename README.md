@@ -1,16 +1,20 @@
 # Portofolio Muhammad Haikal Firdaus
 
-Situs: https://mhaikalfirdaus.github.io
+Situs portofolio statis (HTML, CSS, JavaScript) yang berjalan di GitHub Pages: https://mhaikalfirdaus.github.io/
 
-Portofolio lulusan S1 Ilmu Komputer Universitas Pakuan (Cum Laude) dengan minat pada data analyst, web development, dan IT support. Berisi ringkasan, resume, proyek, publikasi, skill, sertifikat, dan CV (PDF).
+Dibuat dari template iPortfolio (BootstrapMade), lalu disesuaikan dan dioptimalkan.
 
-## Teknologi
-HTML, CSS, JavaScript, dan Bootstrap 5, memakai template iPortfolio dari BootstrapMade (didistribusikan oleh ThemeWagon). Di-hosting dengan GitHub Pages.
+## Struktur
+- `index.html` : halaman utama
+- `404.html`, `robots.txt`, `sitemap.xml`, `.nojekyll` : file pendukung SEO dan hosting
+- `assets/css/main.css` : gaya (sudah diperkecil)
+- `assets/js/main.js` : interaksi (menu, filter proyek, animasi, formulir kontak)
+- `assets/img/` : gambar dalam format WebP, plus `og-image.jpg` untuk pratinjau saat link dibagikan
+- `assets/CV_Muhammad_Haikal_Firdaus.pdf` : CV yang diunduh lewat tombol "Unduh CV"
+- `assets/vendor/` : pustaka pihak ketiga yang dipakai saja (Bootstrap, Bootstrap Icons, AOS, GLightbox, PureCounter, Typed.js)
 
-## Menjalankan secara lokal
-Buka `index.html` di browser, atau taruh folder ini di `C:\laragon\www` lalu buka lewat Laragon.
-
-## Kontak
-mhaikalfirdaus011@gmail.com | linkedin.com/in/muhammad-haikal-firdaus
-
-Konten (teks, foto, sertifikat, dan CV) milik Muhammad Haikal Firdaus. Template milik BootstrapMade.
+## Catatan perawatan
+- Ganti CV: timpa file di `assets/` dengan nama yang sama.
+- Gambar baru: ubah ke WebP dan perkecil (lebar maksimal 1600 px untuk latar, 1200 px untuk sertifikat).
+- Aktifkan **Settings > Pages > Enforce HTTPS** agar situs selalu lewat HTTPS.
+- Jangan menaruh API key atau data pribadi (misalnya nomor KTP) di repo publik.
